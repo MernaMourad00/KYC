@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-slim
 
 WORKDIR /app
 
-COPY target/Kycapp-0.0.1-SNAPSHOT.jar /app/Kycapp-0.0.1-SNAPSHOT.jar
+COPY target/kycapp-0.0.1-SNAPSHOT.jar /app/kycapp-0.0.1-SNAPSHOT.jar
 
 EXPOSE 8080
 
